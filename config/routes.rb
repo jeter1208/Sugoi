@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get 'products/index'
+  get 'hello_world', to: 'hello_world#index'
   resources :products
 end
