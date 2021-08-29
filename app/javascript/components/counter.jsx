@@ -9,8 +9,8 @@ const Counter = ({init = 0}) => {
 	}
 	return (
 		<div className="counter">
-			<h1>Counter</h1>
-			<div>{count}</div>
+			<h1 className='text-3xl'>Counter</h1>
+			<div className='text-2xl'>{count}</div>
 			<button className="border-4" onClick={atClick}>+1</button>
 		</div>
 	)	

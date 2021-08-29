@@ -1,9 +1,11 @@
 module.exports = {
+  mode: 'jit',
   purge: [
     './app/**/*.html',
     './app/helpers/**/*.rb',
-    './app/javascript/**/*.{js, jsx}',
     './app/views/**/*.html.erb',
+    './public/**/*.html',
+    './app/**/*.{js,jsx,ts,tsx,vue}',
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
