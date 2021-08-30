@@ -19,11 +19,8 @@
     "webpack-cli": "^3.3.12"
   },
 
-    "version": "0.1.0",
-    "devDependencies": {
-
-  "version": "0.1.0",
   "devDependencies": {
+    "version": "0.1.0",
     "autoprefixer": "^10.3.3",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.8",

@@ -6194,6 +6194,11 @@ repeat-string@^1.6.1:
   resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
   integrity sha1-jcrkcOHIirwtYA//Sndihtp15jc=
 
+request@2.9.202:
+  version "2.9.202"
+  resolved "https://registry.yarnpkg.com/request/-/request-2.9.202.tgz#c61399cdfbbefda5dc48653b0e9bea517d9f8497"
+  integrity sha1-xhOZzfu+/aXcSGU7DpvqUX2fhJc=
+
 require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
@@ -7328,6 +7333,13 @@ vendors@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
   integrity sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==
+
+version@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/version/-/version-0.1.0.tgz#c98d8e8ee8bce906cc272dc8a74eeee8609720ac"
+  integrity sha1-yY2Ojui86QbMJy3Ip07u6GCXIKw=
+  dependencies:
+    request "2.9.202"
 
 vm-browserify@^1.0.1:
   version "1.1.2"
