@@ -38,7 +38,8 @@ class ProductsController < ApplicationController
       redirect_to products_path,notice: "刪除成功"
   end
 
-
+  def show
+  end
 
 
   private
@@ -46,3 +47,4 @@ class ProductsController < ApplicationController
     params.require(:product).permit(:name, :price, :quantity, :describtion, :category, :material, :manufacturing_method, :country, :content)
   end
 end
+
