@@ -89,6 +89,9 @@ GEM
     diff-lcs (1.4.4)
     erubi (1.10.0)
 
+    execjs (2.8.1)
+
+
     factory_bot (6.2.0)
       activesupport (>= 5.0.0)
     factory_bot_rails (6.2.0)
@@ -116,6 +119,7 @@ GEM
     faraday-patron (1.0.0)
     faraday-rack (1.0.0)
 
+
     ffi (1.15.3)
     foreman (0.87.2)
     globalid (0.5.2)
@@ -127,7 +131,10 @@ GEM
       activesupport (>= 5.0.0)
     libv8-node (15.14.0.1-arm64-darwin-20)
     libv8-node (15.14.0.1-x86_64-linux)
+
+
     jwt (2.2.3)
+
     listen (3.7.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -148,11 +155,13 @@ GEM
     multipart-post (2.1.1)
     nio4r (2.5.8)
     nokogiri (1.12.4-arm64-darwin)
+
       racc (~> 1.4)
     nokogiri (1.12.4-x86_64-linux)
     nokogiri (1.12.3-x86_64-darwin)
+
       racc (~> 1.4)
-    nokogiri (1.12.3-x86_64-linux)
+    nokogiri (1.12.4-x86_64-linux)
       racc (~> 1.4)
     oauth2 (1.4.7)
       faraday (>= 0.8, < 2.0)
@@ -183,10 +192,12 @@ GEM
     racc (1.5.2)
     rack (2.2.3)
 
+
     rack-mini-profiler (2.3.2)
       rack (>= 1.2.0)
     rack-protection (2.1.0)
       rack
+
 
     rack-proxy (0.7.0)
       rack
@@ -251,7 +262,9 @@ GEM
       rspec-mocks (~> 3.10)
       rspec-support (~> 3.10)
     rspec-support (3.10.2)
+
     ruby2_keywords (0.0.5)
+
     rubyzip (2.3.2)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
@@ -323,9 +336,11 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.3)
   mini_racer
+
   omniauth
   omniauth-google-oauth2
   omniauth-rails_csrf_protection
+
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 6.1.4, >= 6.1.4.1)
