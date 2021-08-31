@@ -18,6 +18,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 gem 'devise'
+gem 'carrierwave', '~> 2.0'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -43,6 +44,7 @@ group :development, :test do
   gem 'factory_bot_rails', '~> 6.2'
 
   gem 'rspec-rails', '~> 5.0', '>= 5.0.2'
+
 
 end
 

@@ -1,7 +1,4 @@
 module.exports = {
-
-  purge: [],
-
   mode: 'jit',
   purge: [
     './app/**/*.html',
@@ -10,7 +7,6 @@ module.exports = {
     './public/**/*.html',
     './app/**/*.{js,jsx,ts,tsx,vue}',
   ],
-
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
@@ -18,5 +14,18 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    styled: true,
+    themes: [
+      'Wireframe',
+      'dark',
+    ],
+    base: true,
+    utils: true,
+    logs: true,
+    rtl: false,
+  },
 }
