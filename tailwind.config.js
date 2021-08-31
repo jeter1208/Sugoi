@@ -1,4 +1,7 @@
 module.exports = {
+
+  purge: [],
+
   mode: 'jit',
   purge: [
     './app/**/*.html',
@@ -7,6 +10,7 @@ module.exports = {
     './public/**/*.html',
     './app/**/*.{js,jsx,ts,tsx,vue}',
   ],
+
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
